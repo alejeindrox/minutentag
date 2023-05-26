@@ -1,0 +1,15 @@
+#rating {
+  display: flex;
+  justify-content: center;
+}
+
+#rating span {
+  display: inline-block;
+  font-size: 2rem;
+  transition: color 0.2s;
+  cursor: pointer;
+}
+
+#rating .active {
+  color: #ffd700;
+}
